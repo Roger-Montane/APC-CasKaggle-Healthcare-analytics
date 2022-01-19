@@ -95,10 +95,10 @@ It can be observed that the ensemble methods are the ones performing better so l
 
 | Model | Hyperparameters | Validation score | Data percentage | Execution time (s) |
 | -- | -- | -- | -- | -- |
-| One-vs-Rest with RandomForest | Estimators=20 | 100% | 79.39% | 52.070884704589844 |
-| One-vs-Rest with DecisionTree | Splitter=best, Criterion=gini | 100% | 74.77% | 9.400200843811035 |
-| One-vs-One with RandomForest | Estimators=50 | 60% | 70.42% | 79.03182291984558 |
-| One-vs-One with DecisionTree | Splitter=best, Criterion=gini | 100% | 83.25% | 16.468579292297363 |
+| One-vs-Rest with RandomForest | Estimators=20 | 79.39% | 100% | 52.070884704589844 |
+| One-vs-Rest with DecisionTree | Splitter=best, Criterion=gini | 74.77% | 100% | 9.400200843811035 |
+| One-vs-One with RandomForest | Estimators=50 | 70.42% | 60% | 79.03182291984558 |
+| One-vs-One with DecisionTree | Splitter=best, Criterion=gini | 83.25% | 100% | 16.468579292297363 |
 
 ## Demo
 If you want to load the datasets and see their shapes you can run:
@@ -118,7 +118,7 @@ The best model that was obtained was the ensembled model composed of a One-vs-On
 
 | Model | Hyperparameters | Validation score | Data percentage | Execution time (s) |
 | -- | -- | -- | -- | -- |
-| One-vs-One with DecisionTree | Splitter=best, Criterion=gini | 100% | 83.25% | 16.468579292297363 |
+| One-vs-One with DecisionTree | Splitter=best, Criterion=gini | 83.25% | 100% | 16.468579292297363 |
 
 Compared to the models and/or solutions proposed in the `Code` section of the [Kaggle](https://www.kaggle.com/nehaprabhavalkar/av-healthcare-analytics-ii) dataset page, it seems to be one of the best models yet for this problem.
 
